@@ -1,0 +1,59 @@
+.box {
+  width: 95%;
+  height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 12px;
+ background-color: #333333;
+}
+#s {
+  background-color: #293d3d;
+}
+#navbar {
+  margin-bottom: 20px;
+}
+#tit {
+  text-align: center;
+  color: #e68a00;
+  font-size: 48px;
+}
+.graph {
+  text-align: center;
+  color: #fff;
+  display: block;
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+}
+.inner {
+  text-align: center;
+  font-size: 35px;
+  color: #cc7a00;
+}
+#brand {
+  color: #e68a00;
+}
+/*********tablet*******/
+@media only screen and (min-width: 768px)
+{
+  .graph {
+    font-size: 24px;
+  }
+  .inner {
+    font-size: 32px;
+  }
+}
+/********big screen******/
+@media only screen and (min-width: 992px)
+{
+  .graph {
+    35px
+  }
+  .inner {
+    font-size: 48px;
+  }
+  
+}
